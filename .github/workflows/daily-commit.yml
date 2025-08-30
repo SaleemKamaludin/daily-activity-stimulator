@@ -6,7 +6,7 @@ permissions:
 # Run at 00:00 UTC every day
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '0 */20 * * *'
   workflow_dispatch:
 
 jobs:
