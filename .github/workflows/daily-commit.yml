@@ -3,7 +3,7 @@ name: Daily Dummy Commit
 # Run at 00:00 UTC every day
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
