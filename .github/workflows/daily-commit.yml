@@ -1,5 +1,8 @@
 name: Daily Dummy Commit
 
+permissions:
+  contents: write     # ← gives the built-in GITHUB_TOKEN push rights
+
 # Run at 00:00 UTC every day
 on:
   schedule:
